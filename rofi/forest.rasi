@@ -1,0 +1,76 @@
+/* 1. Configuración de comportamiento */
+configuration {
+    modi:                "drun,run,window";
+    font:                "JetBrainsMono Nerd Font 12";
+    drun-display-format: "{name}";
+    hide-scrollbar:      true;
+    display-drun:        " ";
+    display-run:         " ";
+    display-window:      " ";
+}
+
+/* 2. Definición de la Paleta (Estilo Bosque) */
+* {
+    bg:          #0D100E;
+    bg-alt:      #171C19;
+    fg:          #D1D5D2;
+    accent:      #607A6D;
+    border-col:  #252D28;
+    
+    background-color: @bg;
+    text-color:       @fg;
+}
+
+/* 3. Estructura de la ventana */
+window {
+    width:            600px;
+    border:           3px;
+    border-color:     @border-col;
+    padding:          15px;
+    background-color: @bg;
+}
+
+/* 4. Barra de entrada */
+inputbar {
+    children:         [prompt, entry];
+    background-color: @bg;
+    margin:           0 0 10px 0;
+}
+
+prompt {
+    padding:          5px 10px;
+    background-color: @bg;
+    text-color:       @accent;
+}
+
+entry {
+    padding:          5px;
+    background-color: @bg;
+    text-color:       @fg;
+    placeholder:      "Buscar...";
+}
+
+/* 5. Lista de elementos */
+listview {
+    background-color: @bg;
+    columns:          1;
+    lines:            8;
+    spacing:          2px;
+}
+
+element {
+    padding:          8px;
+    background-color: @bg;
+    text-color:       @fg;
+    border:           0px;
+}
+
+element selected {
+    background-color: @accent;
+    text-color:       @bg;
+}
+
+element-text, element-icon {
+    background-color: inherit;
+    text-color:       inherit;
+}

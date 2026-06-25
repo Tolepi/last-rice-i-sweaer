@@ -1,0 +1,37 @@
+* {
+    font-family: "Iosevka", "JetBrainsMono Nerd Font";
+    font-size: 13px;
+    font-weight: bold;
+}
+
+window#waybar {
+    background-color: transparent;
+}
+
+/* Islas flotantes cuadradas */
+.module {
+    background-color: #171C19;
+    border: 3px solid #252D28;
+    padding: 0 15px;
+    margin: 6px 2px;
+    color: #D1D5D2;
+}
+
+/* Workspace Activo: El corazón de la navegación */
+#workspaces button.active {
+    background-color: #607A6D;
+    color: #0D100E;
+    border: 3px solid #607A6D;
+}
+
+/* Módulos de datos: Estilo de lectura de logs */
+#cpu, #memory, #pulseaudio, #battery {
+    color: #85A394; /* Un tono un poco más brillante para lectura rápida */
+}
+
+/* Alerta de batería */
+#battery.critical {
+    background-color: #7A6663;
+    color: #D1D5D2;
+    border: 3px solid #7A6663;
+}
