@@ -1,5 +1,4 @@
 <div align="center">
-
 # 🌾 Sway Rice
 
 ### *The desktop setup I will absolutely, definitely, totally keep forever.*
@@ -26,7 +25,13 @@
 ## 📸 Preview
 
 > Screenshots were taken moments before I distrohopped.
+<img width="1366" height="768" alt="screenshot_20260625_123943" src="https://github.com/user-attachments/assets/1b2dda68-be2c-4232-8170-d88bdd5bd8c4" />
 
+<img width="1366" height="765" alt="screenshot_20260625_124029" src="https://github.com/user-attachments/assets/14a168fc-1dcf-471b-8b4c-9125f3272e7c" />
+
+<img width="1366" height="768" alt="screenshot_20260625_124037" src="https://github.com/user-attachments/assets/2bfd5aee-ba80-4264-8ea7-4162ec929b0f" />
+
+# 🌾 Sway Rice
 
 ---
 
