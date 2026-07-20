@@ -66,8 +66,8 @@
 Clone the repository:
 
 ```bash
-git clone https://github.com/username/sway-rice.git
-cd sway-rice
+git clone https://github.com/Tolepi/last-rice-i-sweaer
+cd last-rice-i-sweaer
 ```
 
 Copy the configuration:
